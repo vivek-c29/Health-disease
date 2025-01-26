@@ -4,7 +4,7 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 #Load model
 try:
-    model=joblib.load(r'Models/model.pkl')
+    model=joblib.load(r'model.pkl')
     st.write('Model Loaded successfully')
 except Exception as e:
     st.write(f"Error loading model: {e}")
